@@ -90,9 +90,9 @@
 
 
  .content-box {
-     margin: 20px;
-     height: 28rem;
-     width: 22rem;
+     margin: 15px;
+     height: 29rem;
+     width: 20rem;
      background-color: #66000a;
  }
 
@@ -143,4 +143,5 @@
      font-size: 15px;
      text-decoration: none;
      padding-bottom: 5px;
+
  }
