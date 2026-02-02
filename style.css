@@ -1,0 +1,146 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+ }
+
+ .pacifico-regular {
+     font-family: "Pacifico", cursive;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+
+ body {
+     height: 100%;
+     width: 100%;
+     background-color: #4c0a0a;
+     color: white;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 50px;
+     background-color: #a40a12;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .logo {
+     font-size: 22px;
+     font-weight: bold;
+     color: #FFF7ED;
+ }
+
+ ul {
+     list-style: none;
+     display: flex;
+ }
+
+ ul li {
+     margin: 0 15px;
+ }
+
+ ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     transition: 0.3s;
+ }
+
+ ul li a:hover {
+     color: cyan;
+ }
+
+ .btn {
+     padding: 8px 15px;
+     background-color: #FFB38E;
+     color: black;
+     border-radius: 5px;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .btn:hover {
+     background-color: cyan;
+ }
+
+ /* Responsive */
+ @media (max-width: 768px) {
+     nav {
+         flex-direction: column;
+     }
+
+     ul {
+         margin-top: 10px;
+     }
+ }
+
+ .main-section {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     margin-bottom: 80px;
+ }
+
+
+
+
+
+
+ .content-box {
+     margin: 20px;
+     height: 28rem;
+     width: 22rem;
+     background-color: #66000a;
+ }
+
+ .content-box img {
+     margin: 75px 75px 20px 75px;
+     object-fit: cover;
+     object-position: top;
+     height: 13rem;
+     width: 12rem;
+ }
+
+ .content-box h1 {
+     text-align: center;
+     font-size: 2rem;
+ }
+
+ .content-box p {
+     color: #a69090;
+     margin-top: 5px;
+     text-align: center;
+     font-size: 1rem;
+ }
+
+
+ .footer-section {
+     background-color: #320000;
+     height: 15rem;
+     width: 100%;
+     padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .footer_column {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer_column h3 {
+     color: #fff;
+     font-size: 12px;
+     font-weight: 700;
+     margin-bottom: 25px;
+ }
+
+ .footer_column a {
+     color: #fff;
+     font-size: 15px;
+     text-decoration: none;
+     padding-bottom: 5px;
+ }
