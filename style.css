@@ -179,6 +179,7 @@
 
 
  .footer-section {
+     text-align: center;
      backdrop-filter: blur(5px);
      height: 15rem;
      width: 100%;
