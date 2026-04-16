@@ -43,6 +43,7 @@
  }
 
  .logo {
+     text-align: center;
      font-size: 22px;
      font-weight: bold;
      color: #FFF7ED;
@@ -155,6 +156,7 @@
      height: 29rem;
      width: 20rem;
      backdrop-filter: blur(7px);
+     text-align: center;
  }
 
  .content-box img {
