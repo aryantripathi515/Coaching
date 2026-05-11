@@ -157,6 +157,7 @@
      width: 20rem;
      backdrop-filter: blur(7px);
      text-align: center;
+     border : 1px solid white;
  }
 
  .content-box img {
